@@ -6,7 +6,7 @@
 class Shape2D
 {
 public:
-    Shape2D(float cx, float cy);
+    Shape2D(float cx = 0, float cy = 0);
     float getCenter_x();
     float getCenter_y();
     float getArea();
